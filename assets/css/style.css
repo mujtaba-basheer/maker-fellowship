@@ -378,7 +378,7 @@ body {
   }
 
   .home .hero-img {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
   }
 
@@ -1200,7 +1200,6 @@ body {
 
   .yd-reviews .intro {
     padding: 0;
-    max-width: 600px;
     margin: 0 auto;
   }
 

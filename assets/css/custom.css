@@ -3,5 +3,31 @@
 }
 
 .m-t {
-  margin: 4em 0;
+  margin: 2em 0;
+}
+
+.detail-list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 3em;
+  row-gap: 2em;
+  margin-top: 3em;
+}
+
+.detail-list li {
+  display: flex;
+  gap: 1em;
+  align-items: flex-start;
+}
+
+.detail-list li img {
+  height: 18px;
+  width: auto;
+  margin-top: 5px;
+}
+
+@media (max-width: 670px) {
+  .detail-list {
+    grid-template-columns: auto;
+  }
 }
